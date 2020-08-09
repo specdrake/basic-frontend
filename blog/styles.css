@@ -1,0 +1,91 @@
+* {
+    padding : 0px;
+    margin : 0px;
+}
+body {
+    background-image: url("img/bgimg.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: lightsalmon;
+}
+#header {
+    height : 100px;
+    /* border: 2px solid red; */
+    background: red;
+}
+#main {
+    height : 480px;
+    /* border : 2px solid black; */
+}
+.form {
+    border : 2px solid black;
+    height : auto;
+    width : auto;
+    padding: 10px;
+    background: pink;
+    margin-top: 20px;
+}
+.form label {
+    font-weight: bold;
+    font-size: 20px;
+}
+.form input[type="submit"] {
+    outline : none;
+    padding : 2px;
+}
+.form input[type="submit"]:hover {
+    border-color: blue;
+}
+
+.form input[type="text"], input[type="password"]{
+    outline : none; 
+    border : none;
+    border-bottom: 1px solid black;
+    padding : 1px;
+    background: transparent;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.form input[type="text"]:hover, input[type="password"]:hover {
+    outline-width: 1px;
+    outline :cyan;
+    border-color: cyan;
+}
+.form hr {
+    border : none;
+    height : 5px;
+}
+#header img {
+    height : 100px;
+    max-height: 100%;
+}
+#footer img {
+    height : auto;
+    max-height: 100%;
+    padding-left: 0px;
+}
+#footer {
+    /* border : 2px solid red; */
+    height : 6vw;
+    background-color: pink;
+}
+#root {
+    max-height : 100vw;
+}
+#maintext {
+    font-size : 80px;
+    font-family: monospace;
+    font-weight: bold;
+}
+#links a {
+    color : black;
+    font-weight: bold;
+    padding : 20px;
+}
+#links {
+    /* border : 2px solid black; */
+    padding: 35px;
+    padding-left: 60px;
+}
+
